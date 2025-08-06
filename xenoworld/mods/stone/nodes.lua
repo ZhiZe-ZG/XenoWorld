@@ -1,7 +1,10 @@
+-- Load support for MT game translation.
+local S = minetest.get_translator(minetest.get_current_modname())
+
 minetest.register_node("stone:stone", {
-	description = "Stone",-- S("Stone"),
+	description = S("Stone"),
 	tiles = {"stone.png"},
-	groups = {cracky = 3, stone = 1},
+	groups = {dig_immediate=1},
 	drop = "stone:stone",
 	legacy_mineral = true,
 	-- sounds = default.node_sound_stone_defaults(),

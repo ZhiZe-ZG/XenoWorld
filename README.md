@@ -16,3 +16,11 @@ Some introduction and design note here.
   - bronze: alloy
   - steel: alloy
 - coal: burn
+
+## Block Drops
+
+Destroy a block will not drop them self. For machine, you can uninstall them.
+
+## Fluid
+
+Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
