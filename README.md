@@ -1,6 +1,6 @@
 # XenoWorld
 
-A Luanti game.
+A Luanti game for Luanti 5.12.0.
 
 Some introduction and design note here.
 
