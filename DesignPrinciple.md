@@ -14,6 +14,8 @@ Every block in this game represents a single unit of space. There will be no blo
 
 For example, a single door could be represented by two trapdoors stacked vertically. A pair of doors would therefore require four trapdoors.
 
+On the other hand, there is also no smaller blocks in a block.
+
 ## Principles of Mechanics related to Multiblock Structures
 
 When designing Mechanics related  to multiblock structures, each block should contribute meaningfully to the overall functionality.
