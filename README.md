@@ -16,6 +16,7 @@ Some introduction and design note here.
   - bronze: alloy
   - steel: alloy
 - coal: burn
+- ice: as a replacement of water
 
 ## Block Drops
 

@@ -5,7 +5,7 @@ minetest.register_node("stone:stone", {
 	description = S("Stone"),
 	tiles = {"stone.png"},
 	groups = {dig_immediate=2},
-	drop = "stone:stone",
+	drop = "stone:piece_of_stone 4",
 	legacy_mineral = true,
 	-- sounds = default.node_sound_stone_defaults(),
 })
