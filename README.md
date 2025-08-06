@@ -64,6 +64,8 @@ However, this approach introduces complexity and abstraction, making it harder t
 
 Therefore, this principle is considered optional. A large factory can combine simple functional blocks (with clear roles), and multiblock structures (with slightly more complex functions). This may strike a balance between modularity and usability.
 
+Similarly, trees should not appear fully formed; they should grow over time. Certain blocks within the tree could possess the ability to expand the structure until their energy is depleted. When the tree is cut down, all of its blocks would be removed recursively. Ideally, this behavior would be implemented through block-to-block communication mechanics. If that is not feasible, the next best approach is to treat the entire tree as a multiblock structure that stops growing once it loses the blocks responsible for expansion.
+
 ## Block as a Unit and Multiblock structures
 
 No Block Model Larger Than 1 Block
