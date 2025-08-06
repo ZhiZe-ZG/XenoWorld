@@ -4,6 +4,8 @@ A Luanti game for Luanti 5.12.0.
 
 Some introduction and design note here.
 
+- [Design Principle](./DesignPrinciple.md)
+
 ## About Materials
 
 - wood: just a stone and wood era, no pure wood era.
