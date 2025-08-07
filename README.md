@@ -2,6 +2,8 @@
 
 A Luanti game for Luanti 5.12.0.
 
+Recommend use the mapgen v6 for now.
+
 Some introduction and design note here.
 
 - [Design Principle](./DesignPrinciple.md)
@@ -37,3 +39,4 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 - [ ] Sound system
 - [ ] code style guide
 - [ ] Clean tool
+- [ ] mapgen v7 and lua custom mapgen.
