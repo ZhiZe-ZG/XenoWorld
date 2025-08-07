@@ -43,6 +43,7 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 - [ ] lint and formater
 - [ ] name rule
 - [ ] new sounds for xenoworld_rock
+- [ ] new mapgen for xenoworld_rock
 
 ## Resources
 

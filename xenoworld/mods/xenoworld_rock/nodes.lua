@@ -1,5 +1,5 @@
 -- `TRANSLATE` is used for xgettext search
-local TRANSLATE = this_mod.translator
+local TRANSLATE = xenoworld_rock.translator
 
 -- Rock nodes sounds
 local function rock_sounds(table)
@@ -17,7 +17,7 @@ end
 -- Node registry
 --
 
-minetest.register_node("xenoworld_rock:rock", {
+core.register_node("xenoworld_rock:rock", {
 	description = TRANSLATE("Rock"),
 	tiles = {"rock.png"},
 	groups = {cracky=3},
@@ -25,7 +25,7 @@ minetest.register_node("xenoworld_rock:rock", {
 	sounds = rock_sounds(),
 })
 
-minetest.register_node("xenoworld_rock:rock_pile", {
+core.register_node("xenoworld_rock:rock_pile", {
 	description = TRANSLATE("Rock Pile"),
 	tiles = {"rock_pile.png"},
 	groups = {dig_immediate=2},

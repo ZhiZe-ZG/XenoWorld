@@ -1,13 +1,13 @@
 -- A common data structure used in the mod
-this_mod = {}
+xenoworld_rock = {}
 
 -- Load translator support
-this_mod.translator = core.get_translator(core.get_current_modname())
+xenoworld_rock.translator = core.get_translator(core.get_current_modname())
 
 -- Load files
-this_mod.path = core.get_modpath(core.get_current_modname())
+xenoworld_rock.path = core.get_modpath(core.get_current_modname())
 
-dofile(this_mod.path.."/craftitems.lua")
-dofile(this_mod.path.."/nodes.lua")
-dofile(this_mod.path.."/crafting.lua")
-dofile(this_mod.path.."/mapgen.lua")
+dofile(xenoworld_rock.path.."/craftitems.lua")
+dofile(xenoworld_rock.path.."/nodes.lua")
+dofile(xenoworld_rock.path.."/crafting.lua")
+dofile(xenoworld_rock.path.."/mapgen.lua")
