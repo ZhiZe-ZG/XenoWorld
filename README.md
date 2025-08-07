@@ -40,3 +40,18 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 - [ ] code style guide
 - [ ] Clean tool
 - [ ] mapgen v7 and lua custom mapgen.
+- [ ] lint and formater
+- [ ] name rule
+
+## Resources
+
+- [Luanti Official Site](https://www.luanti.org/)
+  - [Luanti Documentation](https://docs.luanti.org/)
+  - [Luanti Lua Modding API Reference](https://api.luanti.org/)
+- [Luanti Modding Book](https://rubenwardy.com/minetest_modding_book/en/index.html)
+
+## Name and packages
+
+All content pack can be unload but all system can't.
+
+Content packs named like `xenoworld_<something>`.
