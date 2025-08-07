@@ -47,6 +47,8 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 - [ ] name rule
 - [ ] new sounds for xenoworld_rock
 - [ ] new mapgen for xenoworld_rock
+- [ ] wood block recipe
+- [ ] wood block replace leaves
 
 ## Resources
 
