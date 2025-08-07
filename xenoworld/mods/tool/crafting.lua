@@ -1,8 +1,8 @@
 minetest.register_craft({
 	output = "tool:pick_stone",
 	recipe = {
-		{"xenoworld_rock:piece_of_stone", "xenoworld_rock:piece_of_stone", "xenoworld_rock:piece_of_stone"},
-        {"", "xenoworld_rock:piece_of_stone", ""},
-		{"", "xenoworld_rock:piece_of_stone", ""},
+		{"xenoworld_rock:rock_piece", "xenoworld_rock:rock_piece", "xenoworld_rock:rock_piece"},
+        {"", "xenoworld_wood:piece_of_wood", ""},
+		{"", "xenoworld_wood:piece_of_wood", ""},
 	}
 })

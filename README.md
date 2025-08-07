@@ -33,7 +33,7 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 ## To Do
 
 - [ ] Clean ice
-- [ ] Clean stone
+- [X] Clean stone
 - [ ] Clean xenolib
 - [ ] new translation system <https://api.luanti.org/translations/#translating-a-string> use S or translator? a shell script and a guide.
 - [ ] Sound system
@@ -42,6 +42,7 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 - [ ] mapgen v7 and lua custom mapgen.
 - [ ] lint and formater
 - [ ] name rule
+- [ ] new sounds for xenoworld_rock
 
 ## Resources
 
@@ -49,6 +50,7 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
   - [Luanti Documentation](https://docs.luanti.org/)
   - [Luanti Lua Modding API Reference](https://api.luanti.org/)
 - [Luanti Modding Book](https://rubenwardy.com/minetest_modding_book/en/index.html)
+- [Minetest Internal Documentation](https://doxy.minetest.net/)
 
 ## Name and packages
 
