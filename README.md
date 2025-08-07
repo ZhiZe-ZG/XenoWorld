@@ -58,3 +58,20 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 All content pack can be unload but all system can't.
 
 Content packs named like `xenoworld_<something>`.
+
+## TRANSLATE
+
+```shell
+#!/bin/sh
+xgettext -L lua --from-code=utf-8 -kS -kNS -kFS -kNFS -kPS:1,2 -kFPS:1,2 -kcore.translate:1c,2 -kcore.translate_n:1c,2,3 "$@"
+```
+
+reference <https://github.com/luanti-org/modtools/blob/main/luanti_xgettext.sh>
+
+But I use:
+
+```shell
+xgettext -L lua --from-code=utf-8 -kTRANSLATE -kNS -kFS -kNFS -kPS:1,2 -kFPS:1,2 -kcore.translate:1c,2 -kcore.translate_n:1c,2,3 "$@" ./*.lua
+```
+
+update maybe <https://github.com/minetest-tools/update_translations>
