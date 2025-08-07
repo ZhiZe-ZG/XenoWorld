@@ -8,9 +8,9 @@ Some introduction and design note here.
 
 ## About Materials
 
-- wood: just a stone and wood era, no pure wood era.
-- stone
-- metal
+- wood: just a stone and wood era, no pure wood era. Reproducible, soft, resilient. Axe.
+- stone: Cheap, not reproducible, hard, fragile. Pickaxe.
+- metal: smelt to reshape
   - gold: noble metal
   - silver: noble metal
   - copper: noble metal, electric-related
@@ -33,3 +33,7 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 - [ ] Clean ice
 - [ ] Clean stone
 - [ ] Clean xenolib
+- [ ] new translation system <https://api.luanti.org/translations/#translating-a-string> use S or translator? a shell script and a guide.
+- [ ] Sound system
+- [ ] code style guide
+- [ ] Clean tool
