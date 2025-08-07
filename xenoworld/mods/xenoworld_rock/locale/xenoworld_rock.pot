@@ -8,23 +8,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 23:43+0800\n"
+"POT-Creation-Date: 2025-08-08 01:52+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: craftitems.lua:9
-msgid "Rock Piece"
+msgid "Limestone Piece"
 msgstr ""
 
 #: nodes.lua:21
-msgid "Rock"
+msgid "Limestone"
 msgstr ""
 
 #: nodes.lua:29
-msgid "Rock Pile"
+msgid "Limestone Pile"
 msgstr ""

@@ -17,18 +17,18 @@ end
 -- Node registry
 --
 
-core.register_node("xenoworld_rock:rock", {
-	description = TRANSLATE("Rock"),
+core.register_node("xenoworld_rock:limestone", {
+	description = TRANSLATE("Limestone"),
 	tiles = {"rock.png"},
 	groups = {cracky=3},
-	drop = "xenoworld_rock:rock_piece 8",
+	drop = "xenoworld_rock:limestone_piece 8",
 	sounds = rock_sounds(),
 })
 
-core.register_node("xenoworld_rock:rock_pile", {
-	description = TRANSLATE("Rock Pile"),
-	tiles = {"rock_pile.png"},
+core.register_node("xenoworld_rock:limestone_pile", {
+	description = TRANSLATE("Limestone Pile"),
+	tiles = {"limestone_pile.png"},
 	groups = {dig_immediate=2},
-	drop = "xenoworld_rock:rock_piece 8",
+	drop = "xenoworld_rock:limestone_piece 8",
 	sounds = rock_sounds(),
 })

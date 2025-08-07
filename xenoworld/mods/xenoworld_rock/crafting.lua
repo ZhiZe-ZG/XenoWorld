@@ -1,6 +1,6 @@
 core.register_craft({
-    output = "xenoworld_rock:rock_pile",
-    recipe = {{"xenoworld_rock:rock_piece", "xenoworld_rock:rock_piece", "xenoworld_rock:rock_piece"},
-              {"xenoworld_rock:rock_piece", "", "xenoworld_rock:rock_piece"},
-              {"xenoworld_rock:rock_piece", "xenoworld_rock:rock_piece", "xenoworld_rock:rock_piece"}}
+    output = "xenoworld_rock:limestone_pile",
+    recipe = {{"xenoworld_rock:limestone_piece", "xenoworld_rock:limestone_piece", "xenoworld_rock:limestone_piece"},
+              {"xenoworld_rock:limestone_piece", "", "xenoworld_rock:limestone_piece"},
+              {"xenoworld_rock:limestone_piece", "xenoworld_rock:limestone_piece", "xenoworld_rock:limestone_piece"}}
 })

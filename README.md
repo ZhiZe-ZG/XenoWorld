@@ -12,6 +12,7 @@ Some introduction and design note here.
 
 - wood: just a stone and wood era, no pure wood era. Reproducible, soft, resilient. Axe.
 - stone: Cheap, not reproducible, hard, fragile. Pickaxe.
+  - limestone
 - metal: smelt to reshape
   - gold: noble metal
   - silver: noble metal
@@ -21,6 +22,8 @@ Some introduction and design note here.
   - steel: alloy
 - coal: burn
 - ice: as a replacement of water
+
+the minecraft stone maybe limestone (normal, gray and name with "stone" LOL)
 
 ## Block Drops
 
@@ -71,7 +74,25 @@ reference <https://github.com/luanti-org/modtools/blob/main/luanti_xgettext.sh>
 But I use:
 
 ```shell
-xgettext -L lua --from-code=utf-8 -kTRANSLATE -kNS -kFS -kNFS -kPS:1,2 -kFPS:1,2 -kcore.translate:1c,2 -kcore.translate_n:1c,2,3 "$@" ./*.lua
+xgettext -L lua --from-code=utf-8 -kTRANSLATE -kNS -kFS -kNFS -kPS:1,2 -kFPS:1,2 -kcore.translate:1c,2 -kcore.translate_n:1c,2,3 "$@" -o locale/mymod.pot ./*.lua
+```
+
+and make sure the pot use UTF-8:
+
+```shell
+sed -i 's/charset=CHARSET/charset=UTF-8/' locale/mymod.pot
 ```
 
 update maybe <https://github.com/minetest-tools/update_translations>
+
+```shell
+msgmerge --update locale/mymod.zh_CN.po locale/mymod.pot
+```
+
+For example:
+
+```shell
+msgmerge --update locale/xenoworld_rock.zh_CN.po locale/xenoworld_rock.pot
+```
+
+Then translate with poedit and clean `*.po~`.
