@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-08 01:52+0800\n"
+"POT-Creation-Date: 2025-08-08 20:11+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,10 +21,22 @@ msgstr ""
 msgid "Limestone Piece"
 msgstr ""
 
+#: craftitems.lua:15
+msgid "Granite Piece"
+msgstr ""
+
 #: nodes.lua:21
 msgid "Limestone"
 msgstr ""
 
 #: nodes.lua:29
 msgid "Limestone Pile"
+msgstr ""
+
+#: nodes.lua:37
+msgid "Granite"
+msgstr ""
+
+#: nodes.lua:46
+msgid "Granite Pile"
 msgstr ""

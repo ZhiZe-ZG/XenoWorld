@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-08 01:52+0800\n"
+"POT-Creation-Date: 2025-08-08 20:11+0800\n"
 "PO-Revision-Date: 2025-08-08 01:57+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +22,10 @@ msgstr ""
 msgid "Limestone Piece"
 msgstr "石灰岩块"
 
+#: craftitems.lua:15
+msgid "Granite Piece"
+msgstr "花岗岩块"
+
 #: nodes.lua:21
 msgid "Limestone"
 msgstr "石灰岩"
@@ -29,3 +33,11 @@ msgstr "石灰岩"
 #: nodes.lua:29
 msgid "Limestone Pile"
 msgstr "石灰岩堆"
+
+#: nodes.lua:37
+msgid "Granite"
+msgstr "花岗岩"
+
+#: nodes.lua:46
+msgid "Granite Pile"
+msgstr "花岗岩堆"
