@@ -22,6 +22,7 @@ Some introduction and design note here.
   - steel: alloy
 - coal: burn
 - ice: as a replacement of water
+- bone
 
 the minecraft stone maybe limestone (normal, gray and name with "stone" LOL)
 
