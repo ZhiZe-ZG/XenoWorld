@@ -28,7 +28,7 @@ core.register_node("xenoworld_rock:limestone", {
 core.register_node("xenoworld_rock:limestone_pile", {
 	description = TRANSLATE("Limestone Pile"),
 	tiles = {"limestone_pile.png"},
-	groups = {dig_immediate=2},
+	groups = {dig_immediate=1},
 	drop = "xenoworld_rock:limestone_piece 8",
 	sounds = rock_sounds(),
 })

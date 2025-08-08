@@ -37,6 +37,7 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 
 - [ ] Clean ice
 - [X] Clean stone
+- [X] Clean wood
 - [ ] Clean xenolib
 - [ ] new translation system <https://api.luanti.org/translations/#translating-a-string> use S or translator? a shell script and a guide.
 - [ ] Sound system
@@ -47,8 +48,9 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 - [ ] name rule
 - [ ] new sounds for xenoworld_rock
 - [ ] new mapgen for xenoworld_rock
-- [ ] wood block recipe
-- [ ] wood block replace leaves
+- [X] wood block recipe
+- [X] wood block replace leaves
+- [ ] replace "wood" with a certain name
 
 ## Resources
 
