@@ -52,6 +52,7 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 - [X] wood block recipe
 - [X] wood block replace leaves
 - [ ] replace "wood" with a certain name
+- [ ] texture and sound name space
 
 ## Resources
 
@@ -101,3 +102,10 @@ msgmerge --update locale/xenoworld_rock.zh_CN.po locale/xenoworld_rock.pot
 ```
 
 Then translate with poedit and clean `*.po~`.
+
+## Art Resources
+
+Some art resources from:
+
+- <https://github.com/luanti-org/minetest_game>
+- <https://github.com/VoxeLibre/VoxeLibre>

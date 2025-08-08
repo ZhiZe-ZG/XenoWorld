@@ -32,3 +32,20 @@ core.register_node("xenoworld_rock:limestone_pile", {
 	drop = "xenoworld_rock:limestone_piece 8",
 	sounds = rock_sounds(),
 })
+
+core.register_node("xenoworld_rock:granite", {
+	description = TRANSLATE("Granite"),
+	tiles = {"granite.png"},
+	groups = {cracky=3},
+	-- drop it self for now
+	drop = "xenoworld_rock:granite_piece 8",
+	sounds = rock_sounds(),
+})
+
+core.register_node("xenoworld_rock:granite_pile", {
+	description = TRANSLATE("Granite Pile"),
+	tiles = {"granite_pile.png"},
+	groups = {dig_immediate=1},
+	drop = "xenoworld_rock:granite_piece 8",
+	sounds = rock_sounds(),
+})
