@@ -26,3 +26,24 @@ core.register_alias("mapgen_cobble", "xenoworld_rock:limestone_pile")
 core.register_alias("mapgen_mossycobble", "xenoworld_rock:limestone_pile")
 core.register_alias("mapgen_stair_cobble", "xenoworld_rock:limestone_pile")
 core.register_alias("mapgen_stair_desert_stone", "xenoworld_rock:limestone_pile")
+
+
+--
+-- Pre-defined Tree Alias
+-- reference: <https://github.com/luanti-org/luanti/blob/ecc876045f33a69eee721665908aff03ab508fd5/src/mapgen/treegen.h>
+-- reference: <https://github.com/luanti-org/luanti/blob/ecc876045f33a69eee721665908aff03ab508fd5/src/mapgen/treegen.cpp>
+--
+
+core.register_alias("mapgen_tree", "xenoworld_wood:wood_pile")
+core.register_alias("mapgen_leaves", "xenoworld_wood:wood_pile")
+core.register_alias("mapgen_apple", "xenoworld_wood:wood_pile")
+
+core.register_alias("mapgen_jungletree", "xenoworld_wood:wood_pile")
+core.register_alias("mapgen_jungleleaves", "xenoworld_wood:wood_pile")
+
+
+core.register_alias("mapgen_pine_tree", "xenoworld_wood:wood_pile")
+core.register_alias("mapgen_pine_needles", "xenoworld_wood:wood_pile")
+
+
+-- core.register_alias("mapgen_junglegrass", "xenoworld_wood:wood_pile")
