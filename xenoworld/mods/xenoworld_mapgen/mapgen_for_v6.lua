@@ -44,6 +44,3 @@ core.register_alias("mapgen_jungleleaves", "xenoworld_wood:wood_pile")
 
 core.register_alias("mapgen_pine_tree", "xenoworld_wood:wood_pile")
 core.register_alias("mapgen_pine_needles", "xenoworld_wood:wood_pile")
-
-
--- core.register_alias("mapgen_junglegrass", "xenoworld_wood:wood_pile")
