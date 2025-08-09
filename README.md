@@ -1,8 +1,6 @@
 # XenoWorld
 
-A Luanti game for Luanti 5.12.0.
-
-Recommend use the mapgen v6 for now.
+A Luanti game for Luanti 5.13.0.
 
 Some introduction and design note here.
 
@@ -67,6 +65,8 @@ Not like water or lava in Minecraft or Minetest. Maybe dwarf-fortress-like.
 All content pack can be unload but all system can't.
 
 Content packs named like `xenoworld_<something>`.
+
+All resource also add namespace name to avoid name conflict.
 
 ## TRANSLATE
 
